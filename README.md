@@ -1,3 +1,23 @@
+## Installation
+
+1. Clone the repository.
+2. Run `composer install`.
+3. Run `npm install`.
+4. Configure the database in `.env`.
+5. Run `php artisan key:generate`.
+6. Import `jobboard.sql` into MySQL/phpMyAdmin.
+7. Run `php artisan serve`.
+8. Run `npm run dev`.
+
+!!!
+RUN with XAMPP (Apache + MySQL)
+
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
