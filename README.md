@@ -1,16 +1,24 @@
 ## Installation
 
-1. Clone the repository.
-2. Run `composer install`.
-3. Run `npm install`.
-4. Configure the database in `.env`.
-5. Run `php artisan key:generate`.
-6. Import `jobboard.sql` into MySQL/phpMyAdmin.
-7. Run `php artisan serve`.
-8. Run `npm run dev`.
+0. Right Click in project folder and run terminal.
+1. Install https://getcomposer.org/download/ & Run `composer install` (duration 15 min+).
+2. Install https://nodejs.org/en/download & Run `npm install`.
+3. Configure the database in `.env`;
+4. Run `php artisan key:generate`.
+5. Create database `jobboard` in phpMyAdmin & Import `jobboard.sql` into MySQL/phpMyAdmin.
+6. Run `php artisan serve`.
+7. Run `npm run dev` in a different terminal.
 
 !!!
-RUN with XAMPP (Apache + MySQL)
+RUN with XAMPP php 8.2.0+ (Apache + MySQL)
+
+
+
+
+
+
+
+
 
 
 
